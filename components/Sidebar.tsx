@@ -13,7 +13,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data }) => {
       <div className="flex flex-col items-center text-center">
         <div className="w-40 h-40 rounded-full border-4 border-slate-700 overflow-hidden shadow-2xl mb-6">
           <img
-            src="assets/foto.png"
+            src="/assets/foto.png"
             alt={data.name}
             className="w-full h-full object-cover"
           />
