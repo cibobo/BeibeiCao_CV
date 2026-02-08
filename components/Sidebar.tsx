@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Calendar, Globe, Award, Languages, Heart } from 'lucide-react';
+import { Mail, Phone, Calendar, Globe, Award, Languages, Heart } from 'lucide-react';
 import { ResumeData } from '../types';
 
 interface SidebarProps {
@@ -12,8 +12,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ data }) => {
       {/* Profile Header */}
       <div className="flex flex-col items-center text-center">
         <div className="w-40 h-40 rounded-full border-4 border-slate-700 overflow-hidden shadow-2xl mb-6">
-          <img 
-            src="https://picsum.photos/400/400?grayscale" 
+          <img
+            src="assets/foto.png"
             alt={data.name}
             className="w-full h-full object-cover"
           />
@@ -44,10 +44,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data }) => {
             {data.contact.email}
           </a>
         </div>
-        <div className="flex items-start gap-3">
-          <MapPin className="w-4 h-4 mt-1 text-slate-500" />
-          <span>{data.contact.address}</span>
-        </div>
+
       </div>
 
       <hr className="border-slate-800" />
@@ -85,16 +82,16 @@ export const Sidebar: React.FC<SidebarProps> = ({ data }) => {
 
       {/* Interests */}
       <div>
-         <h3 className="flex items-center gap-2 text-lg font-semibold mb-4 text-white">
+        <h3 className="flex items-center gap-2 text-lg font-semibold mb-4 text-white">
           <Heart className="w-5 h-5 text-blue-500" />
           {data.ui.interests}
         </h3>
         <div className="flex flex-wrap gap-2">
-            {data.interests.map((interest, idx) => (
-                <span key={idx} className="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">
-                    {interest}
-                </span>
-            ))}
+          {data.interests.map((interest, idx) => (
+            <span key={idx} className="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">
+              {interest}
+            </span>
+          ))}
         </div>
       </div>
     </aside>
