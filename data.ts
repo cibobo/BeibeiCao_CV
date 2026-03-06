@@ -170,7 +170,7 @@ export const resumeDataEn: ResumeData = {
   id: 'en',
   name: "Dipl.-Info. Beibei Cao",
   title: "Lead Software Architect",
-  profile: "Lead Software Architect with over ten years of experience in automotive embedded software development and platform and zonal architecture design. Extensive experience in defining scalable software architectures, engineering standards, and development processes across multiple agile teams. Deep knowledge in AUTOSAR, safety-critical systems, and multi-core/multi-micro system software development, complemented by a current focus on applying AI to increase efficiency in industrial software development processes.",
+  profile: "Lead Software Architect with over ten years of experience in automotive embedded software development, integration and architecture design. Extensive experience in defining scalable software architectures, engineering standards, and development processes across multiple agile teams, and translate system concepts into production-ready platform components while supporting quotation and stakeholder alignment. Deep knowledge in AUTOSAR, safety-critical systems, and multi-core/multi-micro system software development, complemented by a current focus on applying AI to increase efficiency in industrial software development processes.",
   contact: {
     birthDate: "June 12, 1986",
     nationality: "Chinese",
