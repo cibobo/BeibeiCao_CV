@@ -331,3 +331,169 @@ export const resumeDataEn: ResumeData = {
     copyright: "All rights reserved."
   }
 };
+
+export const resumeDataZh: ResumeData = {
+  id: 'zh',
+  name: "曹北北（工程学硕士）",
+  title: "首席软件架构师",
+  profile: "作为域控制平台的首席架构师，拥有超过十年汽车嵌入式软件开发，集成以及设计经验。在指导和定义跨多个敏捷团队的可扩展软件架构、工程标准和开发流程方面积累了丰富的经验。深入掌握AUTOSAR、功能安全系统以及多核/多控制器系统软件开发，并致力于将人工智能应用于工业软件开发流程以提升效率。",
+  contact: {
+    birthDate: "1986年6月12日",
+    nationality: "中国",
+    phone: "0176 47088631",
+    email: "beibei.cao@outlook.com"
+  },
+  experience: [
+    {
+      id: "exp1",
+      role: "首席软件架构师",
+      context: "域控制平台",
+      period: "2023年1月 – 至今",
+      description: [],
+      subSections: [
+        {
+          title: "架构职责",
+          items: [
+            "设计高层架构和软件概念",
+            "确保平台软件的效率、可扩展性和稳定性",
+            "跨不同平台变体的标准化与可复用性推广",
+            "主导平台软件的高层可视化工作"
+          ]
+        },
+        {
+          title: "发布列车架构与治理",
+          items: [
+            "多个Scrum团队的架构治理",
+            "敏捷开发流程中的工作包分配与跟踪"
+          ]
+        },
+        {
+          title: "工程标准与流程",
+          items: [
+            "定义工程标准和最佳实践",
+            "设计和优化开发工作流",
+            "支持ASPICE评估"
+          ]
+        },
+        {
+          title: "战略",
+          items: [
+            "评估和选择前瞻性技术",
+            "制定长期平台战略"
+          ]
+        },
+        {
+          title: "RFQ与报价流程的业务支持",
+          items: [
+            "开展可行性分析",
+            "制作工作量估算",
+            "定义技术条件和开发环境"
+          ]
+        },
+        {
+          title: "应用AI工程",
+          items: [
+            "开发汽车工具链的AI插件",
+            "发起并实施AI辅助开发和分析流程"
+          ]
+        }
+      ]
+    },
+    {
+      id: "exp2",
+      role: "软件架构师",
+      period: "2019年10月 – 2022年12月",
+      description: [
+        "为高性能嵌入式平台项目进行架构设计，重点关注多核和多分区系统",
+        "为多微控制器系统设计电源管理概念",
+        "开展安全分析及对安全相关设计决策的架构贡献",
+        "与集成和开发团队密切合作，确保架构规范的一致落实"
+      ]
+    },
+    {
+      id: "exp3",
+      role: "首席软件集成工程师",
+      period: "2013年9月 – 2019年9月",
+      description: [
+        "负责量产项目中AUTOSAR基础软件的集成",
+        "参与关键项目，如电动车篷控制（Power Closure）和中央网关（Central Gateway）",
+        "拥有丰富的AUTOSAR标准软件及复杂通信协议栈经验（如以太网、IP诊断、服务发现）",
+        "在量产环境中从事多微控制器和多核系统的开发工作"
+      ]
+    }
+  ],
+  education: [
+    {
+      id: "edu1",
+      institution: "卡尔斯鲁厄理工学院（KIT）",
+      degree: "计算机科学工程学硕士",
+      period: "2007年10月 – 2013年1月",
+      details: [
+        "研究方向：计算机图形学、机器人学与自动化",
+        "硕士论文：基于标记的人机协作目标跟踪（成绩：1.0）",
+        "平均成绩：2.1"
+      ]
+    },
+    {
+      id: "edu2",
+      institution: "中山大学，中国",
+      degree: "计算数学理学学士",
+      period: "2002年9月 – 2006年7月",
+      details: [
+        "平均成绩：2.7"
+      ]
+    }
+  ],
+  coreCompetencies: [
+    "软件与平台架构（区域化）",
+    "AUTOSAR（Classic），嵌入式系统",
+    "发布列车与多团队架构",
+    "安全关键系统",
+    "RFQ与方案支持",
+    "应用AI提升工程效率"
+  ],
+  skills: [
+    {
+      category: "C (C++)",
+      skills: ["精通，主要工作语言"]
+    },
+    {
+      category: "Python",
+      skills: ["精通，脚本与AI集成的主要语言"]
+    },
+    {
+      category: "Java",
+      skills: ["精通，Cessar CT与Tresos Studio的主要语言"]
+    },
+    {
+      category: "其他",
+      skills: ["PCAL", "Matlab", "SQL", "TypeScript", "Xpath"]
+    }
+  ],
+  tools: [
+    { category: "架构", tools: ["Rhapsody", "Enterprise Architecture", "Plantuml"] },
+    { category: "AI", tools: ["Vibe Coding", "AI Agent (Claude Code/Gemini CLI)", "工作流 (Dify, N8N)"] },
+    { category: "IDE", tools: ["Tresos Studio", "VSCode"] },
+    { category: "调试/测试", tools: ["CANoe", "iSystem Debugger"] },
+    { category: "需求管理", tools: ["DOORs"] }
+  ],
+  languages: [
+    { language: "德语", proficiency: "商务专业水平" },
+    { language: "英语", proficiency: "商务专业水平" },
+    { language: "普通话", proficiency: "母语" },
+    { language: "粤语", proficiency: "流利" }
+  ],
+  interests: ["网球", "钢琴", "溜冰", "摄影"],
+  ui: {
+    profile: "个人简介",
+    experience: "工作经历",
+    education: "教育背景",
+    skillsAndTools: "技能与工具",
+    programmingLanguages: "编程语言",
+    devTools: "开发工具",
+    coreCompetencies: "核心能力",
+    languages: "语言能力",
+    interests: "兴趣爱好",
+    copyright: "保留所有权利。"
+  }
+};
